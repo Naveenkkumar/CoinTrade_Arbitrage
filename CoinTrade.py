@@ -2,8 +2,8 @@ import xlwings, pandas, requests
 #import python-binance
 #from binance import Client, ThreadedWebsocketManager, ThreadedDepthCacheManager
 
-wb1 = xlwings.Book('C:\\Users\\Naveen Kumar\\OneDrive - RxLogix\\Documents\\PersoMe\\Invest\\CoinTrade.xlsx').sheets('WazirX')
-wb2 = xlwings.Book('C:\\Users\\Naveen Kumar\\OneDrive - RxLogix\\Documents\\PersoMe\\Invest\\CoinTrade.xlsx').sheets('Binance')
+wb1 = xlwings.Book('filepath').sheets('WazirX sheet name')
+wb2 = xlwings.Book('filepath').sheets('Binance sheet name')
 
 
 while True:
